@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: #C2C2C2;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 90%;
+}
+
+.login-btn {
+    padding: 10px 0px 10px 0px;
+    background-color: #9C27B0;
+    color: white;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #dddddd;
+    padding: 50px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px rgb(63, 62, 62);
+    width: 75%;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEEEEE;
+    padding: 25px 15px 5px 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 500px;
+    width: 50%;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #31223E,#9C27B0);
+    padding: 25px 15px 5px 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 500px;
+    width: 50%;
+}
+
+.checkbox-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.forgot-password-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox-forgot-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.connect-with-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.left-hr, .right-hr {
+    width: 30%;
+}
+
+.social-network-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.right-section-h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.right-section-p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.register-btn {
+    margin-top: 5px;
+    padding: 10px 15px 10px 15px;
+    border: 3px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+}
+
+.right-i-color {
+    color: white;
+}
+
+hr {
+    color: black;
+    border-radius: 50px;
+}
